@@ -1,0 +1,5 @@
+# Необходимо создать манифест namespace.yaml для namespace с именем homework
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: homework
