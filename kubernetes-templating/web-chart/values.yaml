@@ -1,0 +1,17 @@
+namespace: homework
+replicaCount: 1
+image:
+  repository: nginx
+  tag: latest
+initImage:
+  repository: busybox
+  tag: latest
+port: 80
+livenessProbe: true
+readinessProbe: true
+ingress:
+  enabled: false
+  host: homework.local
+  path: /
+mysql:
+  enabled: false

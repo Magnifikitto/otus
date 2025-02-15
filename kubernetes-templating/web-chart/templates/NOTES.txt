@@ -1,0 +1,2 @@
+Helm chart successfully deployed!
+You can access the service at http://{{ .Values.ingress.host }}
